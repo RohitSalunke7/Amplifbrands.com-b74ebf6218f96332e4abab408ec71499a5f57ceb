@@ -1,0 +1,48 @@
+.container {
+    position: fixed;
+   bottom: 10%;
+    left: 8px;
+    transform: translateY(-50%);
+    z-index: 999;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    
+    padding: 12px 24px;
+    background-color: #25d366;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #128c7e; 
+  }
+  
+
+
+  .whatsapp-logo {
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .container {
+      left: 8px;
+    }
+    
+    .cta-button {
+      padding: 10px 20px; 
+    }
+    
+    .whatsapp-logo {
+      width: 20px;
+      margin-right: 6px; 
+    }
+  }
